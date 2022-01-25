@@ -18,7 +18,7 @@ else:
         exit()
     if word[0] == character: 
         print((character) + " found at index 0")
-        instances =instances + 1
+        instances = instances + 1
     if word[1] == character:
         print((character) + " found at index 1")
         instances = instances + 1
