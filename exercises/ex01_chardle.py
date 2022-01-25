@@ -35,5 +35,5 @@ else:
         print("No instances of " + (character) + " found in " + (word))
     if instances == 1: 
         print("1 instance of " + (character) + " found in " + (word))
-    if instances == 2: 
-        print("2 instances of " + (character) + " found in " + (word)) 
+    else: 
+        print(str(instances) + " instances of " + (character) + " found in " + (word)) 
